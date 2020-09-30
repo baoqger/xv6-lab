@@ -153,7 +153,8 @@ UPROGS=\
 	$U/_pipetest\
 	$U/_pingpong\
 	$U/_touch\
-	$U/_find
+	$U/_find\
+	$U/_xargs
 
 ifeq ($(LAB),syscall)
 UPROGS += \
